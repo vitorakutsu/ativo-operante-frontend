@@ -1,0 +1,107 @@
+.denuncia-form-modal {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.denuncia-form-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0, 3);
+}
+
+.denuncia-form-modal-header {
+  padding: 0 16px;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.denuncia-form-close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.denuncia-form-close:hover,
+.denuncia-form-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.denuncia-form-modal-body {
+  padding: 10px 16px;
+}
+
+.denuncia-form-modal.show {
+  display: block;
+}
+
+.denuncia-form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  margin: 8px auto;
+}
+
+.denuncia-form-title-wrapper {
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.denuncia-form-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  display: inline;
+  margin-right: 8px;
+}
+
+.denuncia-form-title-bold {
+  font-size: 36px;
+  font-weight: 800;
+  color: #a32e37;
+  display: inline;
+}
+
+.denuncia-form-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999;
+  text-align: start;
+}
+
+.denuncia-form-content {
+  padding: 0 16px;
+}
+
+.denuncia-form-divider {
+  height: 1px;
+  width: 100%;
+  background-color: #e1e1e1;
+  margin: 24px 0;
+}
+
+.denuncia-form-button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  gap: 16px;
+}

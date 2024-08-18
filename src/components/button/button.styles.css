@@ -1,0 +1,18 @@
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: none;
+  width: 180px;
+  height: 45px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.button-content {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}

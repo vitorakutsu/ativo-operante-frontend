@@ -1,0 +1,33 @@
+<template>
+  <button
+    class="full-button-container"
+    :style="{ backgroundColor: color }"
+    @click="handleClick"
+  >
+    <p class="full-button-content">{{ label }}</p>
+  </button>
+</template>
+
+<script>
+import "./full-button.styles.css";
+
+export default {
+  name: "ButtonComponent",
+  props: {
+    label: {
+      type: String,
+    },
+    color: {
+      type: String,
+    },
+    onPress: {
+      type: Function,
+    },
+  },
+  methods: {
+    handleClick() {
+      this.onPress();
+    },
+  },
+};
+</script>
